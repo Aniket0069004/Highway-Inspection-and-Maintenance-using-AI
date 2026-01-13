@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['crash_barrier-aE12', 'h_c-aE12', 'kerb_paint-aE12', 'speed_breaker-aE12']
+
+roboflow:
+  workspace: project249
+  project: road_safety_dataset
+  version: 9
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project249/road_safety_dataset/dataset/9
